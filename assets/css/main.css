@@ -45,7 +45,8 @@
   --dark3: rgb(61,56,70);
   --dark4: rgb(36,31,49);
   --dark5: rgb(0,0,0);
-  --text: #f6f5f4;
+  --text: var(--dark4);
+  --bg: var(--light1);
   scroll-behavior: auto;
   scroll-behavior: smooth;
 }
@@ -116,7 +117,7 @@ body {
   max-width: 1600px;
   margin: 0 auto;
   color: var(--text);
-  background: #222;
+  background: var(--bg);
 }
 
 .splash, .footer {
@@ -172,10 +173,10 @@ body {
         transform: scale(2);
       }
       .socials:hover path {
-        fill: var(--light3);
+        fill: var(--dark3);
       }
       .socials:active path {
-        fill: var(--dark1);
+        fill: var(--dark5);
       }
 
 section.intro {
