@@ -1,3 +1,3 @@
 # lindasteinerova.eu
 
-Linda's personal website.
+Pointer website for Linda.
